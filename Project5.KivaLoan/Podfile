@@ -1,0 +1,3 @@
+target 'KivaLoan' do
+	pod 'HandyJSON', '~> 5.0.0'
+end
