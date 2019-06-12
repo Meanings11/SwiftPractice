@@ -1,6 +1,0 @@
-framework module Pods_CodeLayout {
-  umbrella header "Pods-CodeLayout-umbrella.h"
-
-  export *
-  module * { export * }
-}

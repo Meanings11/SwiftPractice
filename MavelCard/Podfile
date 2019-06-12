@@ -1,0 +1,16 @@
+target 'ComicCards' do
+  inhibit_all_warnings!
+  use_frameworks!
+
+  pod 'Moya'
+  pod 'Kingfisher'
+  pod 'SwiftLint'
+  pod 'Reusable'
+  pod 'SDCycleScrollView'
+  pod 'SnapKit'
+  pod 'SwiftEntryKit'
+  pod 'IQKeyboardManagerSwift'
+
+  pod 'GGUI',         :path => '~/Work/ganguo/Swift/DevelopPods/GGUI'
+  pod 'GGFoundation', :path => '~/Work/ganguo/Swift/DevelopPods/GGFoundation'
+end

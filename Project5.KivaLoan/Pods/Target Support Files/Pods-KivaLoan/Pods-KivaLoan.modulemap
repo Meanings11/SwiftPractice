@@ -1,6 +1,0 @@
-module Pods_KivaLoan {
-  umbrella header "Pods-KivaLoan-umbrella.h"
-
-  export *
-  module * { export * }
-}

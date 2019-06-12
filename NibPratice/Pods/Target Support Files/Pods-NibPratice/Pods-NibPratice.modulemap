@@ -1,6 +1,0 @@
-module Pods_NibPratice {
-  umbrella header "Pods-NibPratice-umbrella.h"
-
-  export *
-  module * { export * }
-}
