@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428EB56522A60EBB00A9A717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EB56422A60EBB00A9A717 /* AppDelegate.swift */; };
+		428EB56722A60EBB00A9A717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EB56622A60EBB00A9A717 /* ViewController.swift */; };
+		428EB56A22A60EBB00A9A717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428EB56822A60EBB00A9A717 /* Main.storyboard */; };
+		428EB56C22A60EBC00A9A717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428EB56B22A60EBC00A9A717 /* Assets.xcassets */; };
+		428EB56F22A60EBC00A9A717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428EB56D22A60EBC00A9A717 /* LaunchScreen.storyboard */; };
+		428EB57822A6100D00A9A717 /* TeslaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428EB57622A6100D00A9A717 /* TeslaTableViewCell.swift */; };
+		428EB57922A6100D00A9A717 /* TeslaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428EB57722A6100D00A9A717 /* TeslaTableViewCell.xib */; };
+		E5236BB96941D38BDA1E2CB7 /* libPods-NibPratice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D6ACE97CD3711D60F86982 /* libPods-NibPratice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36D3B03ED72B8A453366AECE /* Pods-NibPratice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibPratice.release.xcconfig"; path = "Target Support Files/Pods-NibPratice/Pods-NibPratice.release.xcconfig"; sourceTree = "<group>"; };
+		40D6ACE97CD3711D60F86982 /* libPods-NibPratice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibPratice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		428EB56122A60EBB00A9A717 /* NibPratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibPratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428EB56422A60EBB00A9A717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428EB56622A60EBB00A9A717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428EB56922A60EBB00A9A717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428EB56B22A60EBC00A9A717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428EB56E22A60EBC00A9A717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		428EB57022A60EBC00A9A717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428EB57622A6100D00A9A717 /* TeslaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaTableViewCell.swift; sourceTree = "<group>"; };
+		428EB57722A6100D00A9A717 /* TeslaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeslaTableViewCell.xib; sourceTree = "<group>"; };
+		646CA20C0275ABFA1DCD5674 /* Pods-NibPratice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibPratice.debug.xcconfig"; path = "Target Support Files/Pods-NibPratice/Pods-NibPratice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428EB55E22A60EBB00A9A717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5236BB96941D38BDA1E2CB7 /* libPods-NibPratice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428EB55822A60EBB00A9A717 = {
+			isa = PBXGroup;
+			children = (
+				428EB56322A60EBB00A9A717 /* NibPratice */,
+				428EB56222A60EBB00A9A717 /* Products */,
+				98828F4B7687111150CAA026 /* Pods */,
+				77521C0066334E25A0C6D180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		428EB56222A60EBB00A9A717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428EB56122A60EBB00A9A717 /* NibPratice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428EB56322A60EBB00A9A717 /* NibPratice */ = {
+			isa = PBXGroup;
+			children = (
+				428EB56422A60EBB00A9A717 /* AppDelegate.swift */,
+				428EB56622A60EBB00A9A717 /* ViewController.swift */,
+				428EB56822A60EBB00A9A717 /* Main.storyboard */,
+				428EB57622A6100D00A9A717 /* TeslaTableViewCell.swift */,
+				428EB57722A6100D00A9A717 /* TeslaTableViewCell.xib */,
+				428EB56B22A60EBC00A9A717 /* Assets.xcassets */,
+				428EB56D22A60EBC00A9A717 /* LaunchScreen.storyboard */,
+				428EB57022A60EBC00A9A717 /* Info.plist */,
+			);
+			path = NibPratice;
+			sourceTree = "<group>";
+		};
+		77521C0066334E25A0C6D180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D6ACE97CD3711D60F86982 /* libPods-NibPratice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98828F4B7687111150CAA026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				646CA20C0275ABFA1DCD5674 /* Pods-NibPratice.debug.xcconfig */,
+				36D3B03ED72B8A453366AECE /* Pods-NibPratice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428EB56022A60EBB00A9A717 /* NibPratice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428EB57322A60EBC00A9A717 /* Build configuration list for PBXNativeTarget "NibPratice" */;
+			buildPhases = (
+				B8B27290F59C4DFABF73CA7A /* [CP] Check Pods Manifest.lock */,
+				428EB55D22A60EBB00A9A717 /* Sources */,
+				428EB55E22A60EBB00A9A717 /* Frameworks */,
+				428EB55F22A60EBB00A9A717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibPratice;
+			productName = NibPratice;
+			productReference = 428EB56122A60EBB00A9A717 /* NibPratice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428EB55922A60EBB00A9A717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "李名夫";
+				TargetAttributes = {
+					428EB56022A60EBB00A9A717 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 428EB55C22A60EBB00A9A717 /* Build configuration list for PBXProject "NibPratice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428EB55822A60EBB00A9A717;
+			productRefGroup = 428EB56222A60EBB00A9A717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428EB56022A60EBB00A9A717 /* NibPratice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428EB55F22A60EBB00A9A717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428EB56F22A60EBC00A9A717 /* LaunchScreen.storyboard in Resources */,
+				428EB56C22A60EBC00A9A717 /* Assets.xcassets in Resources */,
+				428EB56A22A60EBB00A9A717 /* Main.storyboard in Resources */,
+				428EB57922A6100D00A9A717 /* TeslaTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8B27290F59C4DFABF73CA7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibPratice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428EB55D22A60EBB00A9A717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428EB56722A60EBB00A9A717 /* ViewController.swift in Sources */,
+				428EB56522A60EBB00A9A717 /* AppDelegate.swift in Sources */,
+				428EB57822A6100D00A9A717 /* TeslaTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		428EB56822A60EBB00A9A717 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428EB56922A60EBB00A9A717 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428EB56D22A60EBC00A9A717 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428EB56E22A60EBC00A9A717 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428EB57122A60EBC00A9A717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428EB57222A60EBC00A9A717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428EB57422A60EBC00A9A717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646CA20C0275ABFA1DCD5674 /* Pods-NibPratice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NibPratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exmaple.NibPratice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428EB57522A60EBC00A9A717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D3B03ED72B8A453366AECE /* Pods-NibPratice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NibPratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exmaple.NibPratice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428EB55C22A60EBB00A9A717 /* Build configuration list for PBXProject "NibPratice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428EB57122A60EBC00A9A717 /* Debug */,
+				428EB57222A60EBC00A9A717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428EB57322A60EBC00A9A717 /* Build configuration list for PBXNativeTarget "NibPratice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428EB57422A60EBC00A9A717 /* Debug */,
+				428EB57522A60EBC00A9A717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428EB55922A60EBB00A9A717 /* Project object */;
+}

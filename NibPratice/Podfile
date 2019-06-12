@@ -1,0 +1,4 @@
+target 'NibPratice' do
+    pod 'Alamofire'
+    pod 'AlamofireImage'
+end

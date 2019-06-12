@@ -186,8 +186,40 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="SqR-dR-3yO">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="fIr-P5-nxE">
                                         <rect key="frame" x="0.0" y="394" width="375" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fIr-P5-nxE" id="Vx0-sY-YYp">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMZ-K6-WeQ">
+                                                    <rect key="frame" x="17" y="11" width="50" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Restaurant Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MFI-9F-yvo" userLabel="Restaurant Phone">
+                                                    <rect key="frame" x="18" y="40" width="339" height="30"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hMZ-K6-WeQ" secondAttribute="trailing" constant="20" symbolic="YES" id="4Xe-IR-jJk"/>
+                                                <constraint firstItem="MFI-9F-yvo" firstAttribute="top" secondItem="Vx0-sY-YYp" secondAttribute="topMargin" constant="29" id="FYN-3s-4EJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="hMZ-K6-WeQ" secondAttribute="bottom" constant="29" id="JFf-0n-xaz"/>
+                                                <constraint firstItem="MFI-9F-yvo" firstAttribute="leading" secondItem="hMZ-K6-WeQ" secondAttribute="leading" constant="1" id="MYf-gn-KbG"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="MFI-9F-yvo" secondAttribute="trailing" constant="2" id="S88-cG-cXY"/>
+                                                <constraint firstItem="MFI-9F-yvo" firstAttribute="leading" secondItem="Vx0-sY-YYp" secondAttribute="leadingMargin" constant="2" id="hFF-Bg-TmP"/>
+                                                <constraint firstItem="hMZ-K6-WeQ" firstAttribute="top" secondItem="Vx0-sY-YYp" secondAttribute="topMargin" id="lNH-Bt-CQc"/>
+                                                <constraint firstItem="MFI-9F-yvo" firstAttribute="bottom" secondItem="Vx0-sY-YYp" secondAttribute="bottomMargin" constant="9" id="zEx-8V-cB7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="SqR-dR-3yO">
+                                        <rect key="frame" x="0.0" y="466" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SqR-dR-3yO" id="Mfy-wx-eMy">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
@@ -219,7 +251,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="srv-zS-Tdd">
-                                        <rect key="frame" x="0.0" y="466" width="375" height="72"/>
+                                        <rect key="frame" x="0.0" y="538" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="srv-zS-Tdd" id="MG1-zW-3Ae">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
@@ -289,7 +321,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="Xa3-Zj-jtw">
                             <connections>
-                                <action selector="saveRestaurantButtonWithSender:" destination="zpL-dB-lcb" id="scl-W0-l0Y"/>
+                                <action selector="saveRestaurantButtonWithSender:" destination="zpL-dB-lcb" id="jce-at-Vvr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -297,6 +329,7 @@
                         <outlet property="locationForm" destination="1RM-5i-vn4" id="YFe-WI-C3d"/>
                         <outlet property="nameForm" destination="NPI-aJ-Q0m" id="dRh-Y0-r9D"/>
                         <outlet property="noBeenButton" destination="ANz-dV-0pg" id="mMQ-PQ-Zkc"/>
+                        <outlet property="phoneForm" destination="MFI-9F-yvo" id="FjZ-ln-gpj"/>
                         <outlet property="photoImageView" destination="0D6-nA-nlm" id="nzl-SW-Dfa"/>
                         <outlet property="typeForm" destination="hhp-te-aiU" id="JAo-d3-akC"/>
                         <outlet property="yesBeenButton" destination="oMK-KS-DXa" id="JiQ-Lw-bv2"/>
